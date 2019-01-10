@@ -16,8 +16,7 @@ $mail->SMTPAuth = true;
 $mail->Username = ''; // Ваш логин от почты с которой будут отправляться письма
 $mail->Password = ''; // Ваш пароль от почты с которой будут отправляться письма
 $mail->SMTPSecure = 'ssl';
-$mail->Port = 465; // TCP port to connect to
-
+$mail->Port = 465;
 $mail->setFrom(''); // от кого будет уходить письмо
 $mail->addAddress('');     // Кому будет уходить письмо
 //$mail->addAddress('ellen@example.com');
