@@ -13,12 +13,12 @@ $email = $_POST['email'];
 $mail->isSMTP();
 $mail->Host = 'smtp.mail.ru';
 $mail->SMTPAuth = true;
-$mail->Username = ''; // Ваш логин от почты с которой будут отправляться письма
-$mail->Password = ''; // Ваш пароль от почты с которой будут отправляться письма
+$mail->Username = ''; // Ваш адрес почты с которой будут отправляться письма (qwe123@mail.ru)
+$mail->Password = ''; // Ваш пароль от почты с которой будут отправляться письма (pass)
 $mail->SMTPSecure = 'ssl';
 $mail->Port = 465;
-$mail->setFrom(''); // от кого будет уходить письмо
-$mail->addAddress('');     // Кому будет уходить письмо
+$mail->setFrom(''); // адрес почты от кого будет уходить письмо (qwe123@mail.ru)
+$mail->addAddress('');     // адрес почты кому будет уходить письмо (ewq321@mail.ru)
 //$mail->addAddress('ellen@example.com');
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
